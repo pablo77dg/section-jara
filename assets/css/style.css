@@ -1,8 +1,8 @@
 header {
-    background-color: #fd7e14;
-    border: 10px solid deepskyblue;
-    color: #0dcaf0;
-    padding: 20px;
+    background-color: #000000;
+    border: 10px solid white;
+    color: #ffffff;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,12 +37,12 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #ffffff;
-    color: #dc3545;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .full-height h1 {
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .full-height p {
@@ -57,15 +57,32 @@ header {
 
 #section1 img{
     width: 1000px;
-    border: 20px solid #FF5733;
+    border: 20px solid #ffffff;
 }
 
 #section2 img{
     width: 1000px;
-    border: 20px solid #FF5733;
+    border: 20px solid #ffffff;
 }
 
 #section3 img{
     width: 1000px;
-    border: 20px solid #FF5733;
+    border: 20px solid #ffffff;
 }
+
+.mapouter{
+    margin-top: 10px;
+    justify-content: right;
+    margin-left: 18%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    .mapouter{
+        height: auto ;
+        width: auto;
+
+    }
+}
+
+
